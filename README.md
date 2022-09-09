@@ -45,4 +45,6 @@ Therefore, to find $\frac{n_{h,d,w,m,y}}{n_{hourly}^{max}}$ we need:
     $\frac{n_{h,d,w,m,y}}{n_{hourly}^{max}}=\frac{\frac{n_{h,d,w,m,y}}{n_{monthly}^{max}}}{\frac{n_{h,d,w,m,y}^{max}}{n_{monthly}^{max}}}$ $\left( Eq. 5 \right)$
 
 # **Files:**
-To run the normalization_hourly_data.py file, the provided csv files  must be store inside a folder called raw_data. This folder has to be at the same level than the normalization_hourly_data.py file.
+To run the normalization_hourly_data.py file: 
+    $ pip install -r requirements.txt
+    $ python normalization_hourly_data.py
