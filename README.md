@@ -46,5 +46,7 @@ Therefore, to find $\frac{n_{h,d,w,m,y}}{n_{hourly}^{max}}$ we need:
 
 # **Files:**
 To run the normalization_hourly_data.py file: 
+
     $ pip install -r requirements.txt
+    
     $ python normalization_hourly_data.py
