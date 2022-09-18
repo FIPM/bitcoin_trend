@@ -59,3 +59,6 @@ db_n_h_d_w_m_y = db_n_h_d_w_m_y[['time_hour','date','n_h_d_w_m_y']]
 
 print('Maximum value of the consistent version of the values in the houly_data file: '+str(db_n_h_d_w_m_y['n_h_d_w_m_y'].max()))
 
+# saving required datasets
+db_n_h_d_w_m_y.to_csv('DataRepresentation_Solution_hourly_data.csv', index=False)
+print('Requested files have been saved.')
